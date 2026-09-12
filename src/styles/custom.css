@@ -1,47 +1,162 @@
-/* Custom academic reading styling */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
 :root {
-  --sl-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --sl-font-mono: 'JetBrains Mono', 'Fira Code', monospace;
-  --sl-color-accent-low: #1e293b;
-  --sl-color-accent: #3b82f6;
-  --sl-color-accent-high: #93c5fd;
+  --sl-font: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --sl-font-mono: 'JetBrains Mono', monospace;
+  
+  --sl-color-accent-low: #1e1b4b;
+  --sl-color-accent: #6366f1;
+  --sl-color-accent-high: #c7d2fe;
+  
+  --sl-color-white: #f8fafc;
+  --sl-color-gray-1: #e2e8f0;
+  --sl-color-gray-2: #cbd5e1;
+  --sl-color-gray-3: #94a3b8;
+  --sl-color-gray-4: #64748b;
+  --sl-color-gray-5: #334155;
+  --sl-color-gray-6: #1e293b;
+  --sl-color-black: #090d16;
 }
 
-.sl-markdown-content {
-  font-size: 1.05rem;
-  line-height: 1.8;
+[data-theme='dark'] {
+  --sl-color-bg: #080b12;
+  --sl-color-bg-nav: rgba(10, 15, 26, 0.85);
+  --sl-color-bg-sidebar: #0b0f19;
 }
 
-.sl-markdown-content h1 {
-  font-size: 2.25rem;
-  font-weight: 800;
-  letter-spacing: -0.025em;
-  margin-bottom: 1.5rem;
+header.header {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.sl-markdown-content h2 {
-  font-size: 1.6rem;
+.hero {
+  padding-block: 2rem 1.25rem !important;
+}
+
+.hero .tagline {
+  font-size: 1.15rem !important;
+  color: #94a3b8 !important;
+  max-width: 52rem;
+  line-height: 1.6;
+}
+
+/* Custom Grid Cards */
+.portal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.portal-card {
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.85rem;
+  padding: 1.35rem;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none !important;
+}
+
+.portal-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(99, 102, 241, 0.5);
+  box-shadow: 0 12px 28px -8px rgba(99, 102, 241, 0.3);
+  background: rgba(30, 41, 59, 0.65);
+}
+
+.card-code {
+  font-size: 0.8rem;
   font-weight: 700;
-  margin-top: 2rem;
-  border-bottom: 1px solid var(--sl-color-hairline-light);
-  padding-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+  color: #818cf8;
+  background: rgba(99, 102, 241, 0.12);
+  padding: 0.2rem 0.6rem;
+  border-radius: 9999px;
+  width: fit-content;
+  margin-bottom: 0.75rem;
+}
+
+.card-title {
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: #f8fafc !important;
+  margin-bottom: 0.4rem !important;
+  line-height: 1.35;
+}
+
+.card-desc {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: #cbd5e1;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 0.75rem;
+  margin-top: auto;
+}
+
+.badge-common {
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.35rem;
+  font-size: 0.75rem;
+}
+
+.badge-elt {
+  color: #34d399;
+  background: rgba(52, 211, 153, 0.1);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.35rem;
+  font-size: 0.75rem;
+}
+
+.badge-viva {
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.35rem;
+  font-size: 0.75rem;
 }
 
 .sl-markdown-content table {
   width: 100%;
-  margin: 1.5rem 0;
   border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.92rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.sl-markdown-content th,
+.sl-markdown-content th {
+  background: #111827;
+  color: #f8fafc;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 2px solid #374151;
+}
+
 .sl-markdown-content td {
   padding: 0.75rem 1rem;
-  border: 1px solid var(--sl-color-hairline);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-.sl-markdown-content blockquote {
-  border-left: 4px solid var(--sl-color-accent);
-  background: var(--sl-color-gray-6);
-  padding: 0.75rem 1.25rem;
-  border-radius: 0 0.5rem 0.5rem 0;
+.sl-markdown-content tr:hover td {
+  background: rgba(30, 41, 59, 0.4);
 }

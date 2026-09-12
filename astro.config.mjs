@@ -6,11 +6,19 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Academic Study Vault',
-      description: 'English Literature, ELT & Linguistics Knowledge Base',
+      description: 'Department of English, Jahangirnagar University — Final Year Study Portal',
       sidebar: [
         {
-          label: 'Course Modules',
-          autogenerate: { directory: 'courses' },
+          label: 'Common Courses (E401 - E405)',
+          autogenerate: { directory: 'courses/common' },
+        },
+        {
+          label: 'Applied Linguistics & ELT (E410 - E413)',
+          autogenerate: { directory: 'courses/linguistics' },
+        },
+        {
+          label: 'Viva Voce (Comprehensive)',
+          autogenerate: { directory: 'courses/viva' },
         },
       ],
       customCss: [
