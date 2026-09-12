@@ -9,12 +9,10 @@ export default defineConfig({
       description: 'English Literature, ELT & Linguistics Knowledge Base',
       sidebar: [
         {
-          label: 'Overview',
-          link: '/',
-        },
-        {
-          label: 'Courses',
-          autogenerate: { directory: 'courses' },
+          label: 'Course Modules',
+          items: [
+            { autogenerate: { directory: 'courses' } },
+          ],
         },
       ],
       customCss: [
