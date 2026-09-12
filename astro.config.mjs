@@ -10,9 +10,7 @@ export default defineConfig({
       sidebar: [
         {
           label: 'Course Modules',
-          items: [
-            { autogenerate: { directory: 'courses' } },
-          ],
+          autogenerate: { directory: 'courses' },
         },
       ],
       customCss: [
