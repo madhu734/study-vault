@@ -3,10 +3,18 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
   site: 'https://study.tmadhu.me',
+  vite: {
+    server: {
+      watch: {
+        usePolling: true,
+        interval: 1000,
+      },
+    },
+  },
   integrations: [
     starlight({
       title: 'Apun Ka Study',
-      description: 'Apun Ka Study — সব নোটস, সিলেবাস আর মেটেরিয়াল এক ছাদের নিচে!',
+      description: 'Apun Ka Study — Academic notes, syllabi, and study resources.',
       favicon: '/favicon.png',
       logo: {
         src: './src/assets/logo.png',

@@ -18,35 +18,38 @@
   --sl-color-black: #070a10;
 }
 
-/* Subtle Transparent Optimus Prime Sunset Artwork Background */
+/* Optimus Prime Wallpaper starts precisely BELOW the solid dark search/navbar */
 body::before {
   content: '';
   position: fixed;
-  top: 0;
+  top: var(--sl-nav-height, 3.5rem);
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - var(--sl-nav-height, 3.5rem));
   background-image: url('/op1.jpg');
   background-size: cover;
-  background-position: center 25%;
+  background-position: center top;
   background-repeat: no-repeat;
-  opacity: 0.16;
+  opacity: 0.22;
   z-index: -1;
   pointer-events: none;
-  filter: brightness(0.85) contrast(1.15) saturate(1.2);
+  filter: brightness(0.92) contrast(1.15) saturate(1.25);
 }
 
 [data-theme='dark'] {
-  --sl-color-bg: #070a10e8;
-  --sl-color-bg-nav: rgba(9, 13, 22, 0.88);
-  --sl-color-bg-sidebar: rgba(10, 15, 26, 0.85);
+  --sl-color-bg: #070a10d9;
+  --sl-color-bg-nav: #080c14;
+  --sl-color-bg-sidebar: rgba(8, 12, 20, 0.85);
 }
 
+/* Header & Search Bar: Solid dark as requested, crisp and high-contrast */
 header.header {
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: #080c14 !important;
   border-bottom: 1px solid rgba(245, 158, 11, 0.25);
-  background: rgba(9, 13, 24, 0.85) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .site-title {
@@ -62,14 +65,15 @@ header.header {
 .site-title img {
   border-radius: 50% !important;
   border: 2px solid #f59e0b !important;
-  box-shadow: 0 0 12px rgba(245, 158, 11, 0.45) !important;
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.5) !important;
   width: 34px !important;
   height: 34px !important;
   object-fit: cover !important;
 }
 
+/* Hero Section */
 .hero {
-  padding-block: 2.5rem 1.5rem !important;
+  padding-block: 2.25rem 1.5rem !important;
 }
 
 .hero h1 {
@@ -84,11 +88,11 @@ header.header {
 .hero .tagline {
   font-size: 1.25rem !important;
   color: #cbd5e1 !important;
-  max-width: 52rem;
+  max-width: 48rem;
   line-height: 1.6;
 }
 
-/* Custom Grid Cards with Mech Glassmorphism */
+/* Custom Grid Cards */
 .portal-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -107,7 +111,7 @@ header.header {
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   text-decoration: none !important;
 }
 
@@ -141,51 +145,77 @@ header.header {
 }
 
 .card-desc {
-  font-size: 0.86rem;
+  font-size: 0.88rem;
   color: #94a3b8;
   line-height: 1.5;
-  margin-bottom: 1rem;
+  margin-bottom: 0 !important;
 }
 
-.card-footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 0.78rem;
-  color: #cbd5e1;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 0.75rem;
-  margin-top: auto;
+/* ==========================================================
+   Inner Course & Doc Pages Glassmorphism & Cyber Aesthetics
+   ========================================================== */
+.main-frame {
+  background: transparent !important;
 }
 
-.badge-common {
-  color: #38bdf8;
-  background: rgba(56, 189, 248, 0.12);
-  border: 1px solid rgba(56, 189, 248, 0.25);
-  padding: 0.15rem 0.55rem;
-  border-radius: 0.35rem;
-  font-size: 0.75rem;
-  font-weight: 600;
+.content-panel {
+  background: transparent !important;
 }
 
-.badge-elt {
-  color: #34d399;
-  background: rgba(52, 211, 153, 0.12);
-  border: 1px solid rgba(52, 211, 153, 0.25);
-  padding: 0.15rem 0.55rem;
-  border-radius: 0.35rem;
-  font-size: 0.75rem;
-  font-weight: 600;
+.sl-markdown-content {
+  max-width: 54rem;
 }
 
-.badge-viva {
-  color: #fbbf24;
-  background: rgba(245, 158, 11, 0.14);
-  border: 1px solid rgba(245, 158, 11, 0.3);
-  padding: 0.15rem 0.55rem;
-  border-radius: 0.35rem;
-  font-size: 0.75rem;
-  font-weight: 600;
+.sl-markdown-content h1:first-child {
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.02em;
+  background: linear-gradient(135deg, #ffffff 40%, #fbbf24 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 2px solid rgba(245, 158, 11, 0.35);
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.sl-markdown-content h2 {
+  font-family: 'Outfit', sans-serif !important;
+  color: #fbbf24 !important;
+  border-bottom: 1px solid rgba(245, 158, 11, 0.2) !important;
+  padding-bottom: 0.4rem;
+  margin-top: 2rem !important;
+}
+
+.sl-markdown-content h3 {
+  font-family: 'Outfit', sans-serif !important;
+  color: #f8fafc !important;
+}
+
+.sl-markdown-content h4 {
+  color: #38bdf8 !important;
+}
+
+.sl-markdown-content blockquote {
+  border-left: 3px solid #f59e0b !important;
+  background: rgba(245, 158, 11, 0.08) !important;
+  backdrop-filter: blur(8px);
+  padding: 0.75rem 1.25rem !important;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* Left Sidebar & Right ToC */
+nav.sidebar {
+  background: rgba(8, 12, 20, 0.82) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-right: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.right-sidebar {
+  background: rgba(8, 12, 20, 0.75) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-left: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .sl-markdown-content table {
@@ -196,6 +226,8 @@ header.header {
   border-radius: 0.5rem;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(10px);
 }
 
 .sl-markdown-content th {
@@ -213,4 +245,45 @@ header.header {
 
 .sl-markdown-content tr:hover td {
   background: rgba(30, 41, 59, 0.4);
+}
+
+/* ==========================================================
+   Mobile Optimization
+   ========================================================== */
+@media (max-width: 768px) {
+  body::before {
+    top: var(--sl-nav-height, 3.5rem);
+    height: calc(100vh - var(--sl-nav-height, 3.5rem));
+    background-size: cover;
+    background-position: center 10%;
+    opacity: 0.16;
+  }
+
+  .hero h1 {
+    font-size: 2rem !important;
+  }
+
+  .hero .tagline {
+    font-size: 1.05rem !important;
+  }
+
+  .portal-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.9rem;
+  }
+
+  .site-title {
+    font-size: 1rem !important;
+  }
+
+  .site-title img {
+    width: 28px !important;
+    height: 28px !important;
+  }
+
+  .sl-markdown-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }

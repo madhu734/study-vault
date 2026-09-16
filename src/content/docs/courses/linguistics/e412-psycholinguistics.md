@@ -5,15 +5,6 @@ description: "Child language acquisition, SLA theories, cognitive factors, and n
 
 # E 412: Psycholinguistics
 
-| Information | Details |
-| :--- | :--- |
-| **Department** | Department of English, Jahangirnagar University |
-| **Year / Batch** | 4th Year BA (Honours), Session 2021–2022, Batch 51 |
-| **Course Type** | Concentration: Applied Linguistics & ELT |
-| **Credits & Marks** | 4 Credits | 100 Marks |
-
----
-
 ## 🎯 Course Objective
 Explores cognitive and neurological mechanisms underlying language production, comprehension, and acquisition, examining L1 and L2 development and individual differences.
 

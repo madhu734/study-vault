@@ -5,15 +5,6 @@ description: "Speech sounds as physical objects and systematic sound patterns in
 
 # E 410: Phonetics and Phonology
 
-| Information | Details |
-| :--- | :--- |
-| **Department** | Department of English, Jahangirnagar University |
-| **Year / Batch** | 4th Year BA (Honours), Session 2021–2022, Batch 51 |
-| **Course Type** | Concentration: Applied Linguistics & ELT |
-| **Credits & Marks** | 4 Credits | 100 Marks |
-
----
-
 ## 🎯 Course Objective
 Explores **Phonetics** (the physical properties of speech sounds: articulatory, acoustic, and auditory) and **Phonology** (how sounds function within the linguistic system).
 

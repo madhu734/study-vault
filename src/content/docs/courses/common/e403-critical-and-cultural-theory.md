@@ -5,15 +5,6 @@ description: "Comprehensive syllabus breakdown of contemporary critical schools 
 
 # E 403: Critical and Cultural Theories
 
-| Information | Details |
-| :--- | :--- |
-| **Department** | Department of English, Jahangirnagar University |
-| **Year / Batch** | 4th Year BA (Honours), Session 2021–2022, Batch 51 |
-| **Course Type** | Common Course |
-| **Credits & Marks** | 4 Credits | 100 Marks |
-
----
-
 ## 🎯 Course Objective
 Introduces students to contemporary critical and cultural theories, offering groundbreaking critical schools from formalism to postcolonialism, enabling students to interrogate literary and popular discourses.
 

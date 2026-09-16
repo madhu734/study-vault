@@ -3,16 +3,7 @@ title: "Viva Voce: 4th Year Comprehensive Defense"
 description: "Comprehensive oral examination guide, strategy, and cross-course defense framework."
 ---
 
-# Comprehensive Viva Voce (Batch 51)
-
-| Information | Details |
-| :--- | :--- |
-| **Department** | Department of English, Jahangirnagar University |
-| **Year / Batch** | 4th Year BA (Honours), Session 2021–2022, Batch 51 |
-| **Course Type** | Oral Examination |
-| **Credits & Marks** | 2 Credits | 50 Marks |
-
----
+# Comprehensive Viva Voce
 
 ## 🎯 Viva Examination Architecture
 The **Comprehensive Viva Voce** assesses your mastery across all **9 courses** studied throughout the 4th Year:

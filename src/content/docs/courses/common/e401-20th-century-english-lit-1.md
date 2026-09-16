@@ -5,15 +5,6 @@ description: "Syllabus, literary movements, poetry, drama, and fiction modules f
 
 # E 401: 20th Century English Literature I
 
-| Information | Details |
-| :--- | :--- |
-| **Department** | Department of English, Jahangirnagar University |
-| **Year / Batch** | 4th Year BA (Honours), Session 2021–2022, Batch 51 |
-| **Course Type** | Common Course |
-| **Credits & Marks** | 4 Credits | 100 Marks |
-
----
-
 ## 🎯 Course Objective & Context
 This course samples major works of seven British and Irish writers of the 20th century. Students will situate literary pieces against the socio-political background of 20th-century UK and significant modernist movements:
 - **Modernism & Postmodernism**

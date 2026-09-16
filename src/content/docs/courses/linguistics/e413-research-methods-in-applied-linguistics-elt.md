@@ -5,15 +5,6 @@ description: "Research paradigms, methodologies, APA documentation, and disserta
 
 # E 413: Research Methods in Applied Linguistics and ELT
 
-| Information | Details |
-| :--- | :--- |
-| **Department** | Department of English, Jahangirnagar University |
-| **Year / Batch** | 4th Year BA (Honours), Session 2021–2022, Batch 51 |
-| **Course Type** | Concentration: Applied Linguistics & ELT |
-| **Credits & Marks** | 4 Credits | 100 Marks |
-
----
-
 ## 🎯 Course Objective
 Familiarizes students with theoretical and practical research facets in ELT and applied linguistics, equipping them to critically read literature, design studies, and complete the 4th-year dissertation.
 

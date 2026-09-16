@@ -5,15 +5,6 @@ description: "From internal word structures to syntactic sentence configurations
 
 # E 411: Morphology and Syntax
 
-| Information | Details |
-| :--- | :--- |
-| **Department** | Department of English, Jahangirnagar University |
-| **Year / Batch** | 4th Year BA (Honours), Session 2021–2022, Batch 51 |
-| **Course Type** | Concentration: Applied Linguistics & ELT |
-| **Credits & Marks** | 4 Credits | 100 Marks |
-
----
-
 ## 🎯 Course Objective
 Studies two core structural layers of language: **Morphology** (basic word forms, word formation) and **Syntax** (sentence formation, hierarchical constituency).
 

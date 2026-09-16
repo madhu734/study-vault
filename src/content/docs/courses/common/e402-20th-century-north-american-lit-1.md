@@ -5,15 +5,6 @@ description: "Syllabus, American literary trends, poetry, drama, and fiction mod
 
 # E 402: 20th Century North American Literature I
 
-| Information | Details |
-| :--- | :--- |
-| **Department** | Department of English, Jahangirnagar University |
-| **Year / Batch** | 4th Year BA (Honours), Session 2021–2022, Batch 51 |
-| **Course Type** | Common Course |
-| **Credits & Marks** | 4 Credits | 100 Marks |
-
----
-
 ## 🎯 Course Objective & Context
 This course samples major North American works in English of the 20th century. Students will explore stylistic, structural, and narrative trends across key historical periods:
 - **The Roaring Twenties**

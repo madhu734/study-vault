@@ -5,15 +5,6 @@ description: "Literal context-free meaning vs. context-dependent language in use
 
 # E 405: Semantics and Pragmatics
 
-| Information | Details |
-| :--- | :--- |
-| **Department** | Department of English, Jahangirnagar University |
-| **Year / Batch** | 4th Year BA (Honours), Session 2021–2022, Batch 51 |
-| **Course Type** | Common Course |
-| **Credits & Marks** | 4 Credits | 100 Marks |
-
----
-
 ## 🎯 Course Objective
 Explores **Semantics** (literal, context-free meaning) and **Pragmatics** (context-dependent meaning in actual use). Equips students to analyze language functions from linguistic and philosophical perspectives.
 

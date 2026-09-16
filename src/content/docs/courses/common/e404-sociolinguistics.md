@@ -5,15 +5,6 @@ description: "Language in relation to society: variation, dialects, multilingual
 
 # E 404: Sociolinguistics
 
-| Information | Details |
-| :--- | :--- |
-| **Department** | Department of English, Jahangirnagar University |
-| **Year / Batch** | 4th Year BA (Honours), Session 2021–2022, Batch 51 |
-| **Course Type** | Common Course |
-| **Credits & Marks** | 4 Credits | 100 Marks |
-
----
-
 ## 🎯 Course Objective
 Provides students with a sound understanding of language in relation to society, investigating the mutual relationship between social structure and linguistic behaviour.
 
