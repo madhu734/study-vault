@@ -5,6 +5,8 @@ export default defineConfig({
   site: 'https://study.tmadhu.me',
   vite: {
     server: {
+      host: '0.0.0.0',
+      allowedHosts: true,
       watch: {
         usePolling: true,
         interval: 1000,
