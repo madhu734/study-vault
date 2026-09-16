@@ -5,8 +5,14 @@ export default defineConfig({
   site: 'https://study.tmadhu.me',
   integrations: [
     starlight({
-      title: 'Academic Study Vault',
-      description: 'Department of English, Jahangirnagar University — Final Year Study Portal',
+      title: 'Apun Ka Study',
+      description: 'Apun Ka Study — সব নোটস, সিলেবাস আর মেটেরিয়াল এক ছাদের নিচে!',
+      favicon: '/favicon.png',
+      logo: {
+        src: './src/assets/logo.png',
+        alt: 'Apun Ka Study Logo',
+        replacesTitle: false,
+      },
       sidebar: [
         {
           label: 'Common Courses (E401 - E405)',

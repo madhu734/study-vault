@@ -1,11 +1,11 @@
 ---
-title: Academic Study Vault
-description: Central Academic Knowledge Portal for BA (Hons) in English, Jahangirnagar University.
+title: Apun Ka Study
+description: সব নোটস, সিলেবাস আর স্টাডি মেটেরিয়াল এক ছাদের নিচে!
 template: splash
 hero:
-  tagline: Department of English • Session 2021–2022 • Batch 51 • 4th Year BA (Honours) | 38 Credits • 950 Marks
+  tagline: সব নোটস, সিলেবাস আর মেটেরিয়াল এক ছাদের নিচে — নো পেরা, অনলি স্টাডি! 🚀🔥
   actions:
-    - text: Explore Common Courses
+    - text: Common Courses (E401 - E405)
       link: /courses/common/e401-20th-century-english-lit-1/
       icon: right-arrow
       variant: primary
@@ -18,16 +18,7 @@ hero:
       icon: external
 ---
 
-## 🏛️ Academic Curriculum Architecture
-
-:::tip[Direct Filesystem Organization]
-Every course module is mapped directly to your local laptop (**`M:\4Y\`**) and the cloud vault. Add notes, PDFs, audio clips, and exam questions to any section!
-:::
-
----
-
-### 📘 Part A: Common Core Courses (E401 – E405)
-*Mandatory foundation covering 20th-century literature, advanced critical frameworks, sociolinguistics, and pragmatics (20 Credits | 500 Marks).*
+### ⚡ Common Courses (E401 – E405)
 
 <div class="portal-grid">
   <a class="portal-card" href="/courses/common/e401-20th-century-english-lit-1/">
@@ -93,8 +84,7 @@ Every course module is mapped directly to your local laptop (**`M:\4Y\`**) and t
 
 ---
 
-### 🔬 Part B: Applied Linguistics & ELT Concentration (E410 – E413)
-*Specialized research and scientific track in speech acoustics, syntax, cognitive language acquisition, and ELT methodologies (16 Credits | 400 Marks).*
+### 🔬 Applied Linguistics & ELT (E410 – E413)
 
 <div class="portal-grid">
   <a class="portal-card" href="/courses/linguistics/e410-phonetics-and-phonology/">
@@ -148,14 +138,13 @@ Every course module is mapped directly to your local laptop (**`M:\4Y\`**) and t
 
 ---
 
-### 🎓 Comprehensive Viva Voce (Batch 51)
-*Final degree oral assessment assessing holistic synthesis across all 9 academic disciplines (2 Credits | 50 Marks).*
+### 🎯 Comprehensive Viva Voce
 
 <div class="portal-grid">
   <a class="portal-card" href="/courses/viva/comprehensive-viva-voce/">
     <div>
       <div class="card-code">VIVA VOCE</div>
-      <div class="card-title">4th Year Comprehensive Viva Voce</div>
+      <div class="card-title">Comprehensive Viva Voce Guide</div>
       <div class="card-desc">High-frequency board questions, instant definitions, theoretical comparisons, and viva preparation strategy.</div>
     </div>
     <div class="card-footer">
