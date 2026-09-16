@@ -3,10 +3,10 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "astro dev --host 0.0.0.0 --port 80 --allowed-hosts=study.tmadhu.me,localhost",
+    "start": "astro dev --host 0.0.0.0 --port 80 --allowed-hosts=study.tmadhu.me,localhost",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview --host 0.0.0.0 --port 80 --allowed-hosts=study.tmadhu.me,localhost"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.32.0",
