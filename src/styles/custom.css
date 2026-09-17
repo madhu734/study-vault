@@ -18,8 +18,16 @@
   --sl-color-black: #070a10;
 }
 
-/* Optimus Prime Wallpaper starts precisely BELOW the solid dark search/navbar */
-body::before {
+[data-theme='dark'] {
+  --sl-color-bg: #090d16;
+  --sl-color-bg-nav: #080c14;
+  --sl-color-bg-sidebar: #070a10;
+}
+
+/* ==========================================================
+   HOMEPAGE ONLY: Optimus Prime Wallpaper
+   ========================================================== */
+html[data-has-hero] body::before {
   content: '';
   position: fixed;
   top: var(--sl-nav-height, 3.5rem);
@@ -36,13 +44,68 @@ body::before {
   filter: brightness(0.92) contrast(1.15) saturate(1.25);
 }
 
-[data-theme='dark'] {
-  --sl-color-bg: #070a10d9;
-  --sl-color-bg-nav: #080c14;
-  --sl-color-bg-sidebar: rgba(8, 12, 20, 0.85);
+html[data-has-hero] .main-frame,
+html[data-has-hero] .content-panel {
+  background: transparent !important;
 }
 
-/* Header & Search Bar: Solid dark as requested, crisp and high-contrast */
+/* ==========================================================
+   INNER COURSE READING PAGES: Clean, Solid, Distraction-Free
+   ========================================================== */
+html:not([data-has-hero]) body {
+  background-color: #090d16 !important;
+}
+
+html:not([data-has-hero]) body::before {
+  content: none !important;
+  display: none !important;
+}
+
+html:not([data-has-hero]) .main-frame,
+html:not([data-has-hero]) .main-pane,
+html:not([data-has-hero]) .content-panel {
+  background-color: #090d16 !important;
+}
+
+html:not([data-has-hero]) nav.sidebar {
+  background-color: #070a10 !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+html:not([data-has-hero]) .right-sidebar {
+  background-color: #070a10 !important;
+  border-left: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+html:not([data-has-hero]) .sl-markdown-content {
+  color: #cbd5e1;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+html:not([data-has-hero]) .sl-markdown-content table {
+  background: #0f172a !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+html:not([data-has-hero]) .sl-markdown-content th {
+  background: #1e293b !important;
+  color: #f8fafc !important;
+}
+
+html:not([data-has-hero]) .sl-markdown-content td {
+  background: #0b1120 !important;
+}
+
+html:not([data-has-hero]) .sl-markdown-content blockquote {
+  background: rgba(245, 158, 11, 0.08) !important;
+  border-left: 4px solid #f59e0b !important;
+  color: #e2e8f0 !important;
+}
+
+/* ==========================================================
+   Header & Search Bar: Solid dark, crisp and high-contrast
+   ========================================================== */
 header.header {
   background: #080c14 !important;
   border-bottom: 1px solid rgba(245, 158, 11, 0.25);
@@ -71,7 +134,9 @@ header.header {
   object-fit: cover !important;
 }
 
-/* Hero Section */
+/* ==========================================================
+   Hero Section & Homepage Cards
+   ========================================================== */
 .hero {
   padding-block: 2.25rem 1.5rem !important;
 }
@@ -92,7 +157,6 @@ header.header {
   line-height: 1.6;
 }
 
-/* Custom Grid Cards */
 .portal-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -151,21 +215,7 @@ header.header {
   margin-bottom: 0 !important;
 }
 
-/* ==========================================================
-   Inner Course & Doc Pages Glassmorphism & Cyber Aesthetics
-   ========================================================== */
-.main-frame {
-  background: transparent !important;
-}
-
-.content-panel {
-  background: transparent !important;
-}
-
-.sl-markdown-content {
-  max-width: 54rem;
-}
-
+/* Headings inside course content */
 .sl-markdown-content h1:first-child {
   font-family: 'Outfit', sans-serif !important;
   font-weight: 800 !important;
@@ -195,63 +245,11 @@ header.header {
   color: #38bdf8 !important;
 }
 
-.sl-markdown-content blockquote {
-  border-left: 3px solid #f59e0b !important;
-  background: rgba(245, 158, 11, 0.08) !important;
-  backdrop-filter: blur(8px);
-  padding: 0.75rem 1.25rem !important;
-  border-radius: 0 0.5rem 0.5rem 0;
-}
-
-/* Left Sidebar & Right ToC */
-nav.sidebar {
-  background: rgba(8, 12, 20, 0.82) !important;
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-right: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.right-sidebar {
-  background: rgba(8, 12, 20, 0.75) !important;
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-left: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.sl-markdown-content table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1.5rem 0;
-  font-size: 0.92rem;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(15, 23, 42, 0.6);
-  backdrop-filter: blur(10px);
-}
-
-.sl-markdown-content th {
-  background: #0f172a;
-  color: #f8fafc;
-  padding: 0.75rem 1rem;
-  text-align: left;
-  border-bottom: 2px solid rgba(245, 158, 11, 0.3);
-}
-
-.sl-markdown-content td {
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.sl-markdown-content tr:hover td {
-  background: rgba(30, 41, 59, 0.4);
-}
-
 /* ==========================================================
    Mobile Optimization
    ========================================================== */
 @media (max-width: 768px) {
-  body::before {
+  html[data-has-hero] body::before {
     top: var(--sl-nav-height, 3.5rem);
     height: calc(100vh - var(--sl-nav-height, 3.5rem));
     background-size: cover;
