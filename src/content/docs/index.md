@@ -9,7 +9,7 @@ hero:
       link: /courses/common/e401_master_study_guide/
       icon: right-arrow
       variant: primary
-    - text: Question Bank (প্রশ্ন ব্যাংক)
+    - text: Course-wise Question Bank
       link: /question-banks/e401-question-bank/
       icon: document
       variant: secondary
@@ -57,26 +57,63 @@ hero:
 
 ---
 
-### 📚 Question Bank (প্রশ্ন ব্যাংক)
+### 📚 Course-wise Question Bank (কোর্স-ভিত্তিক প্রশ্ন ব্যাংক)
 
 <div class="portal-grid">
   <a class="portal-card" href="/question-banks/e401-question-bank/">
     <div class="card-code">E 401 QB</div>
-    <div class="card-title">20th Century English Lit I - Question Bank</div>
-    <div class="card-desc">Complete 40 Solved Broad Questions (10 Marks) + 25 Short Notes (5 Marks) with direct browser reading & official PDF download.</div>
+    <div class="card-title">20th Century English Literature I - Question Bank</div>
+    <div class="card-desc">Yeats, T. S. Eliot, Zephaniah, Shaw (Pygmalion), Beckett (Waiting for Godot), Conrad, Lawrence, Joyce.</div>
   </a>
 
   <a class="portal-card" href="/question-banks/e402-question-bank/">
     <div class="card-code">E 402 QB</div>
-    <div class="card-title">20th Century North American Lit I - Question Bank</div>
-    <div class="card-desc">Comprehensive Question Bank covering Modern American Drama, Fiction & Poetry with PDF download.</div>
+    <div class="card-title">20th Century North American Literature I - Question Bank</div>
+    <div class="card-desc">Robert Frost, Sylvia Plath, Eugene O'Neill, Arthur Miller, Faulkner, Hemingway, Toni Morrison.</div>
+  </a>
+
+  <a class="portal-card" href="/question-banks/e403-question-bank/">
+    <div class="card-code">E 403 QB</div>
+    <div class="card-title">Critical and Cultural Theories - Question Bank</div>
+    <div class="card-desc">Formalism, Structuralism, Reader-Response, Marxist Theory, Feminism, Psychoanalysis, Deconstruction, Postmodernism, Postcolonialism.</div>
+  </a>
+
+  <a class="portal-card" href="/question-banks/e404-question-bank/">
+    <div class="card-code">E 404 QB</div>
+    <div class="card-title">Sociolinguistics - Question Bank</div>
+    <div class="card-desc">Language & Dialect, Standardization, Pidgins & Creoles, Isogloss, Diglossia, Code-Switching, Language Planning, Sapir-Whorf Hypothesis.</div>
+  </a>
+
+  <a class="portal-card" href="/question-banks/e405-question-bank/">
+    <div class="card-code">E 405 QB</div>
+    <div class="card-title">Semantics and Pragmatics - Question Bank</div>
+    <div class="card-desc">Sense & Reference, Componential Analysis, Gricean Implicature, Deixis, Speech Act Theory, Politeness (Brown & Levinson), CA.</div>
   </a>
 
   <a class="portal-card" href="/question-banks/e410-question-bank/">
     <div class="card-code">E 410 QB</div>
     <div class="card-title">Phonetics and Phonology - Question Bank</div>
-    <div class="card-desc">Full solved questions, IPA transcriptions, acoustic rules & printable PDF companion.</div>
+    <div class="card-desc">Articulatory & Acoustic Phonetics, Cardinal Vowels, Consonants, Phonotactics, Connected Speech, Stress, Tone & Intonation, IPA.</div>
   </a>
+
+  <a class="portal-card" href="/question-banks/e411-question-bank/">
+    <div class="card-code">E 411 QB</div>
+    <div class="card-title">Morphology and Syntax - Question Bank</div>
+    <div class="card-desc">Morphemes & Allomorphs, Word Formation, IC Analysis, X-Bar Theory, Movement & Merge, Clause Types, GB Theory, LFG, RRG.</div>
+  </a>
+
+  <a class="portal-card" href="/question-banks/e412-question-bank/">
+    <div class="card-code">E 412 QB</div>
+    <div class="card-title">Psycholinguistics - Question Bank</div>
+    <div class="card-desc">Child Language Acquisition Stages, L1 Theories (Chomsky, Skinner, Vygotsky), Krashen's Monitor Model, Interlanguage, Neurolinguistics.</div>
+  </a>
+
+  <a class="portal-card" href="/question-banks/e413-question-bank/">
+    <div class="card-code">E 413 QB</div>
+    <div class="card-title">Research Methods in Applied Linguistics & ELT - Question Bank</div>
+    <div class="card-desc">Qualitative & Quantitative Paradigms, CDA, Corpus Research, Sampling & Statistics (t-test, ANOVA), APA 7th Style, Dissertation.</div>
+  </a>
+
 </div>
 
 ---
