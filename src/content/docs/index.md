@@ -36,10 +36,10 @@ hero:
     <div class="card-desc">Robert Frost, Sylvia Plath, O'Neill (Long Day's Journey), Arthur Miller (Death of a Salesman), Faulkner, Hemingway, Toni Morrison.</div>
   </a>
 
-  <a class="portal-card" href="/courses/common/e403-critical-and-cultural-theory/">
+  <a class="portal-card" href="/courses/common/e403_master_study_guide/">
     <div class="card-code">E 403</div>
     <div class="card-title">Critical and Cultural Theories</div>
-    <div class="card-desc">Formalism, Structuralism, Reader-Response, Marxist Theory, Feminism, Psychoanalysis, Deconstruction, Postmodernism, Postcolonialism.</div>
+    <div class="card-desc">Master Study Guide (Formalism, Structuralism, Marxist Theory, Psychoanalysis, Feminism, Deconstruction, Postmodernism, Postcolonialism, Cultural Theory) with Complete Solved Q&A.</div>
   </a>
 
   <a class="portal-card" href="/courses/common/e404-sociolinguistics/">
@@ -117,7 +117,7 @@ hero:
   <a class="portal-card" href="/question-banks/e403-question-bank/">
     <div class="card-code">E 403 QB</div>
     <div class="card-title">Critical and Cultural Theories - Question Bank</div>
-    <div class="card-desc">Formalism, Structuralism, Reader-Response, Marxist Theory, Feminism, Psychoanalysis, Deconstruction, Postmodernism, Postcolonialism.</div>
+    <div class="card-desc">Master Study Guide (Formalism, Structuralism, Marxist Theory, Psychoanalysis, Feminism, Deconstruction, Postmodernism, Postcolonialism, Cultural Theory) with Complete Solved Q&A.</div>
   </a>
 
   <a class="portal-card" href="/question-banks/e404-question-bank/">

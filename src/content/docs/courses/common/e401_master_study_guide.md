@@ -13,6 +13,21 @@ description: "Comprehensive Final Examination Master Study Guide covering Poetry
 > 📝 **Examination Coverage:** 100% Solved Broad Questions (40 Total) & Short Notes (25 Total)
 
 
+<div class="pdf-download-banner">
+  <div class="pdf-info">
+    <span class="pdf-badge">PDF</span>
+    <span class="pdf-title"><strong>E 401 Master Study Guide</strong> — View & Download Original PDF</span>
+  </div>
+  <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
+    <a class="pdf-view-btn" href="/pdfs/E401_Full_Guide.pdf" target="_blank">
+      View PDF
+    </a>
+    <a class="pdf-download-btn" href="/pdfs/E401_Full_Guide.pdf" download="E401_Full_Guide.pdf">
+      Download PDF
+    </a>
+  </div>
+</div>
+
 ---
 
 ### ⚡ Quick Navigation Index

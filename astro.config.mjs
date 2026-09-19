@@ -7,6 +7,8 @@ export default defineConfig({
     enabled: false,
   },
   redirects: {
+    '/courses/common/e403-critical-and-cultural-theory': '/courses/common/e403_master_study_guide',
+    '/courses/common/e403': '/courses/common/e403_master_study_guide',
     '/courses/common/e401-20th-century-english-lit-1': '/courses/common/e401_master_study_guide',
     '/courses/common/e401': '/courses/common/e401_master_study_guide',
   },
