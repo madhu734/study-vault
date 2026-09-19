@@ -6,13 +6,6 @@ description: "Comprehensive Final Examination Master Study Guide covering Poetry
 # 🎓 E 401: 20th Century English Literature I
 ## 📘 Comprehensive Final Examination Master Study Guide
 
-> **A Two-Part Hybrid Guide:** Topic-Wise Core Summaries, Key Quotations, and Thematic Revision Matrices (Part A) + Complete Solved University Question Bank (Part B)
->
-> 📊 **Curriculum Scope:** 38 Credits | 950 Marks Examination System  
-> 🎯 **Pedagogical Focus:** High-Yield Textual Quotes, Myth & Critical Theory Links, Psychoanalysis & Socio-Political Context  
-> 📝 **Examination Coverage:** 100% Solved Broad Questions (40 Total) & Short Notes (25 Total)
-
-
 <div class="pdf-download-banner">
   <div class="pdf-info">
     <span class="pdf-badge">PDF</span>
@@ -27,6 +20,13 @@ description: "Comprehensive Final Examination Master Study Guide covering Poetry
     </a>
   </div>
 </div>
+
+
+> **A Two-Part Hybrid Guide:** Topic-Wise Core Summaries, Key Quotations, and Thematic Revision Matrices (Part A) + Complete Solved University Question Bank (Part B)
+>
+> 📊 **Curriculum Scope:** 38 Credits | 950 Marks Examination System  
+> 🎯 **Pedagogical Focus:** High-Yield Textual Quotes, Myth & Critical Theory Links, Psychoanalysis & Socio-Political Context  
+> 📝 **Examination Coverage:** 100% Solved Broad Questions (40 Total) & Short Notes (25 Total)
 
 ---
 
