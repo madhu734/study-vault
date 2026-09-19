@@ -9,16 +9,16 @@ hero:
       link: /courses/common/e401_master_study_guide/
       icon: right-arrow
       variant: primary
-    - text: Course-wise Question Bank
-      link: /question-banks/e401-question-bank/
-      icon: document
-      variant: secondary
     - text: Linguistics & ELT
       link: /courses/linguistics/e410-phonetics-and-phonology/
       icon: open-book
     - text: Viva Guide
       link: /courses/viva/comprehensive-viva-voce/
       icon: external
+    - text: Question Banks
+      link: /question-banks/e401-question-bank/
+      icon: document
+      variant: secondary
 ---
 
 ### ⚡ Common Courses (E401 – E405)
@@ -52,6 +52,48 @@ hero:
     <div class="card-code">E 405</div>
     <div class="card-title">Semantics and Pragmatics</div>
     <div class="card-desc">Sense & Reference, Componential Analysis, Gricean Implicature, Deixis, Speech Act Theory, Politeness (Brown & Levinson), CA.</div>
+  </a>
+</div>
+
+---
+
+### 🔬 Applied Linguistics & ELT (E410 – E413)
+
+<div class="portal-grid">
+  <a class="portal-card" href="/courses/linguistics/e410-phonetics-and-phonology/">
+    <div class="card-code">E 410</div>
+    <div class="card-title">Phonetics and Phonology</div>
+    <div class="card-desc">Articulatory & Acoustic Phonetics, Cardinal Vowels, Consonants, Phonotactics, Connected Speech (Assimilation/Elision), Stress, Tone & Intonation, IPA.</div>
+  </a>
+
+  <a class="portal-card" href="/courses/linguistics/e411-morphology-and-syntax/">
+    <div class="card-code">E 411</div>
+    <div class="card-title">Morphology and Syntax</div>
+    <div class="card-desc">Morphemes & Allomorphs, Word Formation, IC Analysis, X-Bar Theory, Movement & Merge, Clause Types, GB Theory, LFG, RRG.</div>
+  </a>
+
+  <a class="portal-card" href="/courses/linguistics/e412-psycholinguistics/">
+    <div class="card-code">E 412</div>
+    <div class="card-title">Psycholinguistics</div>
+    <div class="card-desc">Child Language Acquisition Stages, L1 Theories (Chomsky, Skinner, Vygotsky), Krashen's Monitor Model, Interlanguage, Neurolinguistics & Aphasia.</div>
+  </a>
+
+  <a class="portal-card" href="/courses/linguistics/e413-research-methods-in-applied-linguistics-elt/">
+    <div class="card-code">E 413</div>
+    <div class="card-title">Research Methods in Applied Linguistics & ELT</div>
+    <div class="card-desc">Qualitative & Quantitative Paradigms, CDA, Corpus Research, Sampling & Statistics (t-test, ANOVA), APA 7th Style, Dissertation.</div>
+  </a>
+</div>
+
+---
+
+### 🎯 Comprehensive Viva Voce
+
+<div class="portal-grid">
+  <a class="portal-card" href="/courses/viva/comprehensive-viva-voce/">
+    <div class="card-code">VIVA VOCE</div>
+    <div class="card-title">Comprehensive Viva Voce Guide</div>
+    <div class="card-desc">High-frequency board questions, instant definitions, theoretical comparisons, and viva preparation strategy.</div>
   </a>
 </div>
 
@@ -112,48 +154,5 @@ hero:
     <div class="card-code">E 413 QB</div>
     <div class="card-title">Research Methods in Applied Linguistics & ELT - Question Bank</div>
     <div class="card-desc">Qualitative & Quantitative Paradigms, CDA, Corpus Research, Sampling & Statistics (t-test, ANOVA), APA 7th Style, Dissertation.</div>
-  </a>
-
-</div>
-
----
-
-### 🔬 Applied Linguistics & ELT (E410 – E413)
-
-<div class="portal-grid">
-  <a class="portal-card" href="/courses/linguistics/e410-phonetics-and-phonology/">
-    <div class="card-code">E 410</div>
-    <div class="card-title">Phonetics and Phonology</div>
-    <div class="card-desc">Articulatory & Acoustic Phonetics, Cardinal Vowels, Consonants, Phonotactics, Connected Speech (Assimilation/Elision), Stress, Tone & Intonation, IPA.</div>
-  </a>
-
-  <a class="portal-card" href="/courses/linguistics/e411-morphology-and-syntax/">
-    <div class="card-code">E 411</div>
-    <div class="card-title">Morphology and Syntax</div>
-    <div class="card-desc">Morphemes & Allomorphs, Word Formation, IC Analysis, X-Bar Theory, Movement & Merge, Clause Types, GB Theory, LFG, RRG.</div>
-  </a>
-
-  <a class="portal-card" href="/courses/linguistics/e412-psycholinguistics/">
-    <div class="card-code">E 412</div>
-    <div class="card-title">Psycholinguistics</div>
-    <div class="card-desc">Child Language Acquisition Stages, L1 Theories (Chomsky, Skinner, Vygotsky), Krashen's Monitor Model, Interlanguage, Neurolinguistics & Aphasia.</div>
-  </a>
-
-  <a class="portal-card" href="/courses/linguistics/e413-research-methods-in-applied-linguistics-elt/">
-    <div class="card-code">E 413</div>
-    <div class="card-title">Research Methods in Applied Linguistics & ELT</div>
-    <div class="card-desc">Qualitative & Quantitative Paradigms, CDA, Corpus Research, Sampling & Statistics (t-test, ANOVA), APA 7th Style, Dissertation.</div>
-  </a>
-</div>
-
----
-
-### 🎯 Comprehensive Viva Voce
-
-<div class="portal-grid">
-  <a class="portal-card" href="/courses/viva/comprehensive-viva-voce/">
-    <div class="card-code">VIVA VOCE</div>
-    <div class="card-title">Comprehensive Viva Voce Guide</div>
-    <div class="card-desc">High-frequency board questions, instant definitions, theoretical comparisons, and viva preparation strategy.</div>
   </a>
 </div>
