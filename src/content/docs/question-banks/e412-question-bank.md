@@ -9,7 +9,7 @@ description: "Question Bank for E 412: Psycholinguistics with broad questions, s
 <div class="pdf-download-banner">
   <div class="pdf-info">
     <span class="pdf-badge">PDF</span>
-    <span class="pdf-title"><strong>E 412 প্রশ্ন ব্যাংক</strong> — PDF দেখা ও ডাউনলোডের অপশন</span>
+    <span class="pdf-title"><strong>E 412 Question Bank</strong> — View & Download Original PDF</span>
   </div>
   <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
     <a class="pdf-view-btn" href="/pdfs/E412.pdf" target="_blank">
@@ -23,7 +23,7 @@ description: "Question Bank for E 412: Psycholinguistics with broad questions, s
 
 ---
 
-### সিলেবাসের বিষয়বস্তু (Syllabus Topics)
+### Syllabus Topics
 
 - **Foundations:** Definition, history, development, scopes, and multidisciplinary branches of Psycholinguistics.
 - **Child Language Acquisition (L1):** Developmental stages (pre-linguistic, babbling, sensori-motor, holophrastic / one-word, two-word, telegraphic); Characteristics of child grammar.

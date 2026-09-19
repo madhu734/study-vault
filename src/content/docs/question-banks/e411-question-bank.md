@@ -9,7 +9,7 @@ description: "Question Bank for E 411: Morphology and Syntax with broad question
 <div class="pdf-download-banner">
   <div class="pdf-info">
     <span class="pdf-badge">PDF</span>
-    <span class="pdf-title"><strong>E 411 প্রশ্ন ব্যাংক</strong> — PDF দেখা ও ডাউনলোডের অপশন</span>
+    <span class="pdf-title"><strong>E 411 Question Bank</strong> — View & Download Original PDF</span>
   </div>
   <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
     <a class="pdf-view-btn" href="/pdfs/E411.pdf" target="_blank">
@@ -23,7 +23,7 @@ description: "Question Bank for E 411: Morphology and Syntax with broad question
 
 ---
 
-### সিলেবাসের বিষয়বস্তু (Syllabus Topics)
+### Syllabus Topics
 
 #### Morphology
 

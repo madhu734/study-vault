@@ -9,7 +9,7 @@ description: "Question Bank for E 404: Sociolinguistics with broad questions, sh
 <div class="pdf-download-banner">
   <div class="pdf-info">
     <span class="pdf-badge">PDF</span>
-    <span class="pdf-title"><strong>E 404 প্রশ্ন ব্যাংক</strong> — PDF দেখা ও ডাউনলোডের অপশন</span>
+    <span class="pdf-title"><strong>E 404 Question Bank</strong> — View & Download Original PDF</span>
   </div>
   <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
     <a class="pdf-view-btn" href="/pdfs/E404.pdf" target="_blank">
@@ -23,7 +23,7 @@ description: "Question Bank for E 404: Sociolinguistics with broad questions, sh
 
 ---
 
-### সিলেবাসের বিষয়বস্তু (Syllabus Topics)
+### Syllabus Topics
 
 - **Scope & Concepts:** Definition and scope; Sociolinguistics vs. Sociology of Language; Micro vs. Macro sociolinguistics.
 - **Language & Dialect:** Standard language; Bell's seven criteria; Dialect; Language standardization process & challenges.

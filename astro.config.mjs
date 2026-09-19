@@ -3,6 +3,9 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
   site: 'https://study.tmadhu.me',
+  devToolbar: {
+    enabled: false,
+  },
   redirects: {
     '/courses/common/e401-20th-century-english-lit-1': '/courses/common/e401_master_study_guide',
     '/courses/common/e401': '/courses/common/e401_master_study_guide',
@@ -53,7 +56,7 @@ export default defineConfig({
           autogenerate: { directory: 'courses/viva' },
         },
         {
-          label: '📚 Course-wise Question Bank (কোর্স-ভিত্তিক প্রশ্ন ব্যাংক)',
+          label: 'Course-wise Question Banks',
           autogenerate: { directory: 'question-banks' },
         },
       ],

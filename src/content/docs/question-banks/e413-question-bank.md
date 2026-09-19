@@ -9,7 +9,7 @@ description: "Question Bank for E 413: Research Methods in Applied Linguistics a
 <div class="pdf-download-banner">
   <div class="pdf-info">
     <span class="pdf-badge">PDF</span>
-    <span class="pdf-title"><strong>E 413 প্রশ্ন ব্যাংক</strong> — PDF দেখা ও ডাউনলোডের অপশন</span>
+    <span class="pdf-title"><strong>E 413 Question Bank</strong> — View & Download Original PDF</span>
   </div>
   <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
     <a class="pdf-view-btn" href="/pdfs/E413.pdf" target="_blank">
@@ -23,7 +23,7 @@ description: "Question Bank for E 413: Research Methods in Applied Linguistics a
 
 ---
 
-### সিলেবাসের বিষয়বস্তু (Syllabus Topics)
+### Syllabus Topics
 
 - **Research Concepts & Paradigms:** Definition, nature, ethics, and significance of research; Quantitative, Qualitative, and Mixed-Methods paradigms; Post-positivism, Pragmatism, Participatory paradigms.
 - **Research Designs & Traditions:** Narrative Inquiry; Qualitative & Quantitative Case Study; Action Research (Cycles: plan, act, observe, reflect); Grounded Theory; Survey Research (cross-sectional, longitudinal); Experimental & Quasi-experimental designs (pretest-posttest, control groups); Corpus Research; Discourse Analysis & Critical Discourse Analysis (CDA); Ethnography.

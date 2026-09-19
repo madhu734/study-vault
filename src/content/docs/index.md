@@ -57,7 +57,7 @@ hero:
 
 ---
 
-### 📚 Course-wise Question Bank (কোর্স-ভিত্তিক প্রশ্ন ব্যাংক)
+### 📚 Course-wise Question Banks
 
 <div class="portal-grid">
   <a class="portal-card" href="/question-banks/e401-question-bank/">

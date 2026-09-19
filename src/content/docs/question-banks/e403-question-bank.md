@@ -9,7 +9,7 @@ description: "Question Bank for E 403: Critical and Cultural Theories with broad
 <div class="pdf-download-banner">
   <div class="pdf-info">
     <span class="pdf-badge">PDF</span>
-    <span class="pdf-title"><strong>E 403 প্রশ্ন ব্যাংক</strong> — PDF দেখা ও ডাউনলোডের অপশন</span>
+    <span class="pdf-title"><strong>E 403 Question Bank</strong> — View & Download Original PDF</span>
   </div>
   <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
     <a class="pdf-view-btn" href="/pdfs/E403.pdf" target="_blank">
@@ -23,7 +23,7 @@ description: "Question Bank for E 403: Critical and Cultural Theories with broad
 
 ---
 
-### সিলেবাসের বিষয়বস্তু (Syllabus Topics)
+### Syllabus Topics
 
 #### Core Critical & Cultural Theories
 
