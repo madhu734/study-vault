@@ -12,11 +12,6 @@ description: "Comprehensive Final Examination Master Study Guide covering Poetry
 > 🎯 **Pedagogical Focus:** High-Yield Textual Quotes, Myth & Critical Theory Links, Psychoanalysis & Socio-Political Context  
 > 📝 **Examination Coverage:** 100% Solved Broad Questions (40 Total) & Short Notes (25 Total)
 
-<div class="pdf-download-banner">
-  <div class="pdf-info">
-    <span class="pdf-badge">📄 Official PDF</span>
-    <span class="pdf-title"><strong>E401 Full Master Study Guide PDF</strong> (66 Pages • High-Resolution Print Ready)</span>
-  </div>
   <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
     <a class="pdf-view-btn" href="/E401%20Full%20Guide.pdf" target="_blank">
       👁️ View PDF
