@@ -1,32 +1,47 @@
 ---
 title: "E 410: Question Bank (Phonetics and Phonology)"
-description: "Comprehensive Solved Question Bank with IPA transcriptions, acoustic rules, diagrams and PDF download."
+description: "Course-wise Question Bank for E 410: Phonetics and Phonology with board questions, short notes and PDF companion."
 ---
 
 # 📚 E 410: Question Bank
-## 📝 Solved University Question Bank & Model Answers
+## 📝 Phonetics and Phonology
 
-<div class="pdf-download-banner">
-  <div class="pdf-info">
-    <span class="pdf-badge">📄 Official PDF</span>
-    <span class="pdf-title"><strong>E410 Phonetics & Phonology Guide PDF</strong></span>
-  </div>
-  <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
-    <a class="pdf-view-btn" href="/E410_Phonetics_Phonology_Study_Guide.pdf" target="_blank">
-      👁️ View PDF
-    </a>
-    <a class="pdf-download-btn" href="/E410_Phonetics_Phonology_Study_Guide.pdf" download="E410_Phonetics_Phonology_Study_Guide.pdf">
-      📥 Download PDF
-    </a>
-  </div>
-</div>
-
-> 🎯 **Question Bank Status:** Phonetics and Phonology solved question bank. Upload your notes or updates via FileBrowser into `data/study-vault/content/question-banks/e410-question-bank.md`.
+> 💡 **কোর্স-ভিত্তিক প্রশ্ন ব্যাংক সেকশন:** এটি শুধুমাত্র **E 410: Phonetics and Phonology** কোর্সের পরীক্ষার বিগত বছরের বোর্ড প্রশ্ন, মডেল ব্রড কোয়েশ্চেন এবং শর্ট নোটের জন্য নির্ধারিত আলাদা সেকশন।  
+> 📖 এই কোর্সের বিস্তারিত থিওরিটিক্যাল স্টাডি গাইড পড়তে [**E 410 Master Study Guide**](/courses/linguistics/e410-phonetics-and-phonology/) পাতায় যান।
 
 ---
 
-### 🔬 Core Syllabus Modules
-- Articulatory & Acoustic Phonetics, Cardinal Vowels, Consonant Classification
-- Connected Speech: Assimilation, Elision, Weak Forms
-- Suprasegmentals: Stress, Tone & Intonation Systems
-- Phonological Rules & Distinctive Features
+### 📂 ফাইল ম্যানেজমেন্ট ও পিডিএফ গাইড (FileBrowser)
+
+| ক্যাটাগরি | FileBrowser ফোল্ডার লোকেশন | করণীয় |
+| :--- | :--- | :--- |
+| **প্রশ্ন ব্যাংক এডিট / নোট পেস্ট** | `data/study-vault/content/question-banks/e410-question-bank.md` | আপনার তৈরি করা প্রশ্ন ও শর্ট নোট সরাসরি এই ফাইলে পেস্ট করলেই ব্রাউজারে সুন্দরভাবে দেখা যাবে। |
+| **পিডিএফ ফাইল আপলোড** | `data/study-vault/public/pdfs/e410-question-bank.pdf` | প্রস্তুত করা PDF ফাইলটি এই ফোল্ডারে আপলোড করে দিলে সরাসরি লিংকে ডাউনলোড করা যাবে। |
+
+---
+
+### 📋 সিলেবাস ও প্রশ্ন ব্যাংকের রূপরেখা
+
+
+#### 🗣️ Articulatory & Acoustic Phonetics
+- [ ] **Airstream Mechanisms & Vocal Tract Anatomy**
+- [ ] **Classification of Consonants (Place, Manner, Voicing)**
+- [ ] **Daniel Jones Cardinal Vowel System & Vowel Quadrilateral**
+
+#### 🎶 Phonological Systems & Structure
+- [ ] **Phone, Phoneme, Allophone & Minimal Pairs**
+- [ ] **Syllable Structure & Phonotactics**
+- [ ] **Distinctive Feature Theory**
+
+#### ⚡ Connected Speech & Suprasegmentals
+- [ ] **Connected Speech Phenomena (Assimilation, Elision, Linking)**
+- [ ] **Word Stress & Sentence Rhythm**
+- [ ] **Tone & English Intonation Patterns**
+
+
+---
+
+### ✍️ পরীক্ষার গুরুত্বপূর্ণ প্রশ্নাবলী (Broad Questions & Short Notes)
+*(এখানে আপনার প্রশ্ন ব্যাংক প্রস্তুত হলে FileBrowser-এর মাধ্যমে সরাসরি যুক্ত করতে পারবেন)*
+
+> 🎯 **Exam Prep Tip:** পরীক্ষায় প্রতিটি ১০ মার্কসের ব্রড উত্তরের জন্য প্রাসঙ্গিক টেক্সচুয়াল কোটেশন এবং থিওরিটিক্যাল রেফারেন্স উল্লেখ করলে সর্বোচ্চ নম্বর পাওয়া যায়।
