@@ -31,6 +31,9 @@ export default defineConfig({
       description: 'Apun Ka Study — Academic notes, syllabi, and study resources.',
       favicon: '/favicon.png',
       pagefind: false,
+      components: {
+        Search: './src/components/EmptySearch.astro',
+      },
       logo: {
         src: './src/assets/logo.png',
         alt: 'Apun Ka Study Logo',
@@ -50,7 +53,7 @@ export default defineConfig({
           autogenerate: { directory: 'courses/viva' },
         },
         {
-          label: '📚 Question Bank (প্রশ্ন ব্যাংক)',
+          label: '📚 Course-wise Question Bank (কোর্স-ভিত্তিক প্রশ্ন ব্যাংক)',
           autogenerate: { directory: 'question-banks' },
         },
       ],
