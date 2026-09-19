@@ -14,4 +14,4 @@ EXPOSE 80
 ENV HOST=0.0.0.0
 ENV PORT=80
 
-CMD ["sh", "-c", "mkdir -p /app/src/content/docs/question-banks /app/public/pdfs && if [ ! -f /app/src/content/docs/.seeded_v3 ]; then cp -rn /app/initial_docs/* /app/src/content/docs/ 2>/dev/null || cp -r /app/initial_docs/* /app/src/content/docs/; cp /app/initial_docs/index.md /app/src/content/docs/index.md; touch /app/src/content/docs/.seeded_v3; fi && if [ ! -f /app/public/.seeded_v3 ]; then cp -rn /app/initial_public/* /app/public/ 2>/dev/null || cp -r /app/initial_public/* /app/public/; touch /app/public/.seeded_v3; fi && npm run dev"]
+CMD ["sh", "-c", "echo '=== SYNCING DOCS & PUBLIC ===' && mkdir -p /app/src/content/docs/question-banks /app/public/pdfs && cp -r /app/initial_docs/* /app/src/content/docs/ && cp -r /app/initial_public/* /app/public/ 2>/dev/null || true && echo '=== QUESTION BANKS LIST: ===' && ls -la /app/src/content/docs/question-banks/ && npm run dev"]
