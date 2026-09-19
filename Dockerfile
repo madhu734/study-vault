@@ -2,7 +2,7 @@ FROM node:20-alpine
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm install && npx astro preferences disable devtoolbar
+RUN npm install
 
 COPY . .
 
