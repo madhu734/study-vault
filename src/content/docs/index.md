@@ -6,13 +6,16 @@ hero:
   tagline: Academic Notes, Syllabi & Study Resources
   actions:
     - text: Common Courses
-      link: /courses/common/e401-20th-century-english-lit-1/
+      link: /courses/common/e401_master_study_guide/
       icon: right-arrow
       variant: primary
+    - text: Question Bank (প্রশ্ন ব্যাংক)
+      link: /question-banks/e401-question-bank/
+      icon: document
+      variant: secondary
     - text: Linguistics & ELT
       link: /courses/linguistics/e410-phonetics-and-phonology/
       icon: open-book
-      variant: secondary
     - text: Viva Guide
       link: /courses/viva/comprehensive-viva-voce/
       icon: external
@@ -21,10 +24,10 @@ hero:
 ### ⚡ Common Courses (E401 – E405)
 
 <div class="portal-grid">
-  <a class="portal-card" href="/courses/common/e401-20th-century-english-lit-1/">
+  <a class="portal-card" href="/courses/common/e401_master_study_guide/">
     <div class="card-code">E 401</div>
     <div class="card-title">20th Century English Literature I</div>
-    <div class="card-desc">Yeats, T. S. Eliot, Zephaniah, Shaw (Pygmalion), Beckett (Waiting for Godot), Conrad, Lawrence, Joyce.</div>
+    <div class="card-desc">Master Study Guide (Yeats, T. S. Eliot, Zephaniah, Shaw, Beckett, Conrad, Lawrence, Joyce) with 40 Broad Qs & 25 Short Notes.</div>
   </a>
 
   <a class="portal-card" href="/courses/common/e402-20th-century-north-american-lit-1/">
@@ -49,6 +52,30 @@ hero:
     <div class="card-code">E 405</div>
     <div class="card-title">Semantics and Pragmatics</div>
     <div class="card-desc">Sense & Reference, Componential Analysis, Gricean Implicature, Deixis, Speech Act Theory, Politeness (Brown & Levinson), CA.</div>
+  </a>
+</div>
+
+---
+
+### 📚 Question Bank (প্রশ্ন ব্যাংক)
+
+<div class="portal-grid">
+  <a class="portal-card" href="/question-banks/e401-question-bank/">
+    <div class="card-code">E 401 QB</div>
+    <div class="card-title">20th Century English Lit I - Question Bank</div>
+    <div class="card-desc">Complete 40 Solved Broad Questions (10 Marks) + 25 Short Notes (5 Marks) with direct browser reading & official PDF download.</div>
+  </a>
+
+  <a class="portal-card" href="/question-banks/e402-question-bank/">
+    <div class="card-code">E 402 QB</div>
+    <div class="card-title">20th Century North American Lit I - Question Bank</div>
+    <div class="card-desc">Comprehensive Question Bank covering Modern American Drama, Fiction & Poetry with PDF download.</div>
+  </a>
+
+  <a class="portal-card" href="/question-banks/e410-question-bank/">
+    <div class="card-code">E 410 QB</div>
+    <div class="card-title">Phonetics and Phonology - Question Bank</div>
+    <div class="card-desc">Full solved questions, IPA transcriptions, acoustic rules & printable PDF companion.</div>
   </a>
 </div>
 

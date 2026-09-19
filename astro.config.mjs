@@ -3,6 +3,10 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
   site: 'https://study.tmadhu.me',
+  redirects: {
+    '/courses/common/e401-20th-century-english-lit-1': '/courses/common/e401_master_study_guide',
+    '/courses/common/e401': '/courses/common/e401_master_study_guide',
+  },
   server: {
     host: '0.0.0.0',
     port: 80,
@@ -26,6 +30,7 @@ export default defineConfig({
       title: 'Apun Ka Study',
       description: 'Apun Ka Study — Academic notes, syllabi, and study resources.',
       favicon: '/favicon.png',
+      pagefind: false,
       logo: {
         src: './src/assets/logo.png',
         alt: 'Apun Ka Study Logo',
@@ -43,6 +48,10 @@ export default defineConfig({
         {
           label: 'Viva Voce (Comprehensive)',
           autogenerate: { directory: 'courses/viva' },
+        },
+        {
+          label: '📚 Question Bank (প্রশ্ন ব্যাংক)',
+          autogenerate: { directory: 'question-banks' },
         },
       ],
       customCss: [
